@@ -16,6 +16,7 @@ export class AppComponent  {
   ngOnInit() {
     this.config = {      
       title: 'Game Title',
+      parent: 'gameContainer',
       version: '1.0',
       type: Phaser.AUTO,
       width: 800, // window.innerWidth,
