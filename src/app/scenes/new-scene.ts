@@ -20,7 +20,7 @@ export class NewScene extends Phaser.Scene {
   }
 
 public preload() {    
-    const baseAssets = "./assets/"; 
+    const baseAssets = "https://raw.githubusercontent.com/photonstorm/phaser3-examples/master/public/src/games/firstgame/assets/";
     this.load.image('sky', baseAssets + 'sky.png');
     this.load.image('ground', baseAssets + 'platform.png');
     this.load.image('star', baseAssets + 'star.png');
